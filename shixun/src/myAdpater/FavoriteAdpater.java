@@ -22,14 +22,14 @@ public class FavoriteAdpater extends BaseAdapter {
 	private int mLayoutId = 0;
 	private Context mContext = null;
 	private List<GoodsList> mGoodsLists = null;
-	
+	private int tempflag =0;
 	
 
 	public  FavoriteAdpater(List<GoodsList> goodsLists, int layoutId, Context context) {
 		this.mGoodsLists = goodsLists;
 		this.mLayoutId = layoutId;
 		this.mContext = context;
-		
+		tempflag=1;
 	}
 
 	@Override
